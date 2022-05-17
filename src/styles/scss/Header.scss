@@ -1,0 +1,11 @@
+.navbarWrap {
+    .navbarLogo {
+        cursor: pointer;
+    }
+    .navbarButton {
+        margin-left: 10px;
+        &:hover {
+            background-color: #bac8ff;
+        }
+    }
+}

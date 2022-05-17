@@ -1,0 +1,119 @@
+.portfolioBody {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.discordapp.com/attachments/952087329764413545/957296998850121778/unknown.png');
+}
+// User Card 디자인
+.userCard {
+    border: 2px solid #f8f0fc;
+    box-shadow: 0 0 15px 0 rgba(128, 128, 128, 0.372);
+    .profileImage {
+        border-radius: 70%;
+        width: 14rem;
+        height: 12rem;
+        cursor: pointer;
+        &:hover {
+            width: 16rem;
+            height: 14rem;
+            transition: 1s;
+        }
+    }
+    .editButton {
+        background-color: hsla(51, 77%, 91%, 0.975);
+        border: 0px;
+        border-radius: 5px;
+        color: #495057;
+        font-weight: bold;
+        padding: 5px;
+        box-shadow: none;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .withdrawalButton {
+        background-color: rgb(245, 178, 178);
+        border: 0px;
+        border-radius: 5px;
+        color: #495057;
+        padding: 5px;
+        box-shadow: none;
+        font-weight: bold;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .networkButton {
+        background-color: hsl(43, 88%, 52%);
+        color: white;
+        border: 0px;
+        box-shadow: none;
+    }
+}
+
+// User Card 편집 디자인
+.userEditForm {
+    .changePasswordButton {
+        background-color: hsla(51, 77%, 91%, 0.975);
+        border: 0;
+        box-shadow: none;
+        color: #495057;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .confirmButton {
+        background-color: hsla(51, 77%, 91%, 0.975);
+        border: 0;
+        box-shadow: none;
+        color: #495057;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .cancelButton {
+        background-color: rgb(245, 178, 178);
+        border: 0;
+        box-shadow: none;
+        color: #495057;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+}
+
+// 나의페이지 MVP 카드 디자인
+.mvpCard {
+    border: 2px solid #f8f0fc;
+    box-shadow: 0 0 15px 0 rgba(128, 128, 128, 0.372);
+    padding: 15px;
+    .mvpCardTitle {
+        color: #232223;
+    }
+    .mvpCardAddButton {
+        background-color: #f5c342;
+        border: 0;
+        box-shadow: none;
+        &:hover {
+            background-color: hsl(43, 88%, 52%);
+        }
+    }
+    .mvpCardConfirmButton {
+        background-color: hsla(51, 77%, 91%, 0.975);
+        color: #495057;
+        border: 0;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .mvpCardCancelButton {
+        background-color: rgb(245, 178, 178);
+        color: #495057;
+        border: 0;
+        &:hover {
+            border: 2px solid black;
+        }
+    }
+    .mvpCardHr {
+        border: 2px lightgray solid;
+    }
+}
