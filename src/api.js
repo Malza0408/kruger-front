@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const backendPortNumber = process.env.REACT_APP_PORT;
-const serverUrl = "https://kruger-back.herokuapp.com/";
+const serverUrl = "https://git-cicd-kruger.herokuapp.com/";
 axios.defaults.baseURL = serverUrl;
 
 async function get(endpoint, params = "") {
